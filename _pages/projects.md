@@ -9,9 +9,13 @@ To complement my theoretical syntactic analysis, I am developing computational m
 
 * Developing finite-state automata (FSA) using Haskell to formally capture complex interactions between tense, transitivity, and stem choice in a system lacking morphological case.
 * Bridging formal syntactic theory with functional programming to test the architectural limits of split alignment systems.
+  
+## Behbahani Corpus and Syntactic Treebank *(In Progress)*
+To establish a durable empirical foundation for linguistic research on the Behbahani variety, I am currently developing a digitized corpus and a custom syntactically annotated treebank. 
 
+* Compiling a foundational textual corpus utilizing primary elicited data and naturalistic speech recordings.
+* Designing a theoretically-informed syntactic annotation scheme specifically tailored to capture Behbahani's unique morphosyntactic properties, including complex agreement patterns and stem alternations.
 <br>
-
 ## Language Documentation & Mentorship: "Linguists, Meet Behbahani"
 
 Beyond formal analysis, I am invested in the documentation and visibility of the Behbahani variety. 
