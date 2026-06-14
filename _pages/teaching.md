@@ -8,8 +8,8 @@ title: "Teaching"
 | Course | Term |
 | :------ | :--- |
 | **LIN 524** — Sociolinguistics | Summer 2026, 2025 |
-| **LIN 541** — Bilingualism (co-taught)| Summer 2024 |
-| **LIN 200** — Language in the United States (co-taught) | Winter 2026, 2024, 2023 |
+| **LIN 541** — Bilingualism *(co-taught)*| Summer 2024 |
+| **LIN 200** — Language in the United States *(co-taught)* | Winter 2026, 2024, 2023 |
 | **PER 101** — Intensive Elementary Persian | Summer 2022 |
 
 <br>
