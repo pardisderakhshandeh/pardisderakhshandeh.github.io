@@ -45,25 +45,30 @@
 
 /* 1. Paper-like Background and Charcoal Text */
 body {
-    background-color: #FDFBF7 !important; /* A warm, subtle off-white */
-    color: #2A2A2A !important; /* Deep charcoal instead of harsh black */
-    line-height: 1.7 !important; /* Gives the text more room to breathe */
+    background-color: #FDFBF7 !important; 
+    color: #2A2A2A !important; 
+    line-height: 1.7 !important; 
 }
 
-/* 2. Sophisticated Accent Colors for Links */
+/* 2. Deep Crimson Links (High contrast, elegant) */
 a {
-    color: #4A5D6E !important; /* Muted slate blue instead of bright blue */
+    color: #8B1C1C !important; /* A deep, rich crimson */
     text-decoration: none !important;
-    border-bottom: 1px solid rgba(74, 93, 110, 0.3) !important;
+    border-bottom: 1px solid rgba(139, 28, 28, 0.3) !important;
 }
 
 a:hover {
-    color: #2C3E50 !important; /* Darker slate on hover */
-    border-bottom: 1px solid #2C3E50 !important;
+    color: #5A1212 !important; /* Darker shade on hover */
+    border-bottom: 1px solid #5A1212 !important;
 }
 
-/* 3. Sidebar Profile Tweaks */
+/* 3. Sidebar Profile Tweaks (Square Photo & Text) */
+.author__avatar img {
+    border-radius: 4px !important; /* Changes the oval to a square with slightly softened edges */
+}
+
 .author__name {
     color: #1A1A1A !important;
     font-weight: 700 !important;
+}
 }
