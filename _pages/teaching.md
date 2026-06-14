@@ -8,7 +8,7 @@ title: "Teaching"
 | Course | Term |
 | :------ | :--- |
 | **LIN 200** — Language in the United States | Winter 2026, 2024, 2023 |
-| **LIN 541** — Sociolinguistics | Summer 2025 |
+| **LIN 541** — Sociolinguistics | Summer 2026,2025 |
 | **LIN 541** — Bilingualism | Summer 2024 |
 | **PER 101** — Intensive Elementary Persian | Summer 2022 |
 
