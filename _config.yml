@@ -26,8 +26,8 @@ author:
   avatar           : "profile.png"
   name             : "Pardis Derakhshandeh"
   pronouns         : "she/her"  
-  bio              : ""
-  location         : ""
+  bio              : 
+  location         : 
   employer         : "Stony Brook University"
   uri              : # URL
   email            : "pardis.derakhshandeh@stonybrook.edu" 
