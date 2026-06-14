@@ -16,6 +16,7 @@ To establish a durable empirical foundation for linguistic research on the Behba
 * Compiling a foundational textual corpus utilizing primary elicited data and naturalistic speech recordings.
 * Designing a theoretically-informed syntactic annotation scheme specifically tailored to capture Behbahani's unique morphosyntactic properties, including complex agreement patterns and stem alternations.
 <br>
+
 ## Language Documentation & Mentorship: "Linguists, Meet Behbahani"
 
 Beyond formal analysis, I am invested in the documentation and visibility of the Behbahani variety. 
