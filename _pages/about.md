@@ -7,11 +7,7 @@ profile:
   align: right
   image: pardisd.jpeg
   image_circular: false #
-  more_info: >
-    <p>Department of Linguistics</p>
-    <p>Stony Brook University</p>
-    <p>Stony Brook, NY 11794</p>
-
+  more_info: 
 news: false
 selected_papers: false
 social: true
