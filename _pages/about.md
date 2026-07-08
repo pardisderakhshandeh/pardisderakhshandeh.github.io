@@ -18,7 +18,7 @@ social: true
 ---
 Hi, welcome to my website.
 
-I am a PhD candidate in [Department of Linguistics at Stony Brook University](https://www.stonybrook.edu/commcms/linguistics/), where I work on syntax and morphology. I joined the program in 2021 and am advised by Dr. Paco Ordóñez.
+I am a PhD candidate in [Department of Linguistics at Stony Brook University](https://www.stonybrook.edu/commcms/linguistics/), where I work on syntax and morphology. I joined the program in 2021 and am advised by Dr.[Paco Ordóñez](https://linguistics.stonybrook.edu/people/faculty).
 
 My main research is on complex alignment and agreement systems, with a focus on Behbahani, a Southwestern Iranian language spoken in Behbahan, Iran. In my dissertation, I investigate how argument structure, verbal stems, agreement, and alignment interact in Behbahani grammar. I am especially interested in what this language can tell us about split alignment, the syntax of Voice and related functional projections, stem alternations, and nominalization.
 
