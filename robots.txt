@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://pardisderakhshandeh.github.io/al-folio/sitemap.xml
+Sitemap: https://pardisderakhshandeh.github.io/sitemap.xml
