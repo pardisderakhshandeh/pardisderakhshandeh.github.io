@@ -2,11 +2,10 @@
 layout: about
 title: about
 permalink: /
-subtitle: PhD Candidate in Linguistics at <a href='https://www.stonybrook.edu/commcms/linguistics/'>Stony Brook University</a>.
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: 
   image_circular: false # اگر می‌خواهید عکستان گرد باشد این را true کنید
   more_info: >
     <p>Department of Linguistics</p>
