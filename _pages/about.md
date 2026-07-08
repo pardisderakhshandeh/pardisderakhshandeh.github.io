@@ -5,7 +5,7 @@ permalink: /
 
 profile:
   align: right
-  image: pardisd.jpeg
+  image: pardis.jpeg
   image_circular: false #
   more_info: 
 news: false
