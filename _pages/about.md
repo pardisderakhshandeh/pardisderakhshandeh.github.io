@@ -14,7 +14,7 @@ news: false
 selected_papers: false
 social: true
 ---
-Hi, welcome to my website.
+Hi ;) welcome to my website.
 
 I am a PhD candidate in [Department of Linguistics at Stony Brook University](https://www.stonybrook.edu/commcms/linguistics/), where I work on syntax and morphology. I joined the program in 2021 and am advised by Dr.[Paco Ordóñez](https://linguistics.stonybrook.edu/people/faculty).
 
