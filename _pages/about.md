@@ -5,8 +5,8 @@ permalink: /
 
 profile:
   align: right
-  image: 
-  image_circular: false # اگر می‌خواهید عکستان گرد باشد این را true کنید
+  image: pardisd.jpeg
+  image_circular: false #
   more_info: >
     <p>Department of Linguistics</p>
     <p>Stony Brook University</p>
