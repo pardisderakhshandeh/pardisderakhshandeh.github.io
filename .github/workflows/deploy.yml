@@ -70,21 +70,16 @@ jobs:
         
       - name: Compile LaTeX CV
         uses: xu-cheng/latex-action@v3
-        
-      - name: Setup Ruby 💎
-        uses: ruby/setup-ruby@v1
-
         with:
           root_file: cv.tex
           working_directory: ./assets/pdf/
-
+          
       - name: Setup Ruby 💎
         uses: ruby/setup-ruby@v1
         with:
-        
-        with:
           ruby-version: "3.3.5"
           bundler-cache: true
+          
       - name: Setup Python 🐍
         uses: actions/setup-python@v5
         with:
