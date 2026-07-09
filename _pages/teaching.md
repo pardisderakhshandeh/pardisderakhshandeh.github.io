@@ -104,6 +104,17 @@ nav_order: 6
     border: 1px solid rgba(128, 128, 128, 0.15);
   }
 
+  /* Stack term badges vertically in the Term / Year column */
+  .teaching-content table td:last-child .term-badge {
+    display: block;
+    width: fit-content;
+    margin: 0.1em 0 0.25em auto;
+  }
+
+  .teaching-content table td:last-child .term-badge:last-child {
+    margin-bottom: 0.1em;
+  }
+
   .section-note {
     font-size: 0.85rem;
     opacity: 0.65;
@@ -128,19 +139,19 @@ nav_order: 6
   </thead>
   <tbody>
     <tr>
-      <td><strong>LIN 524</strong> — Sociolinguistics</td>
+      <td><strong>LIN 524</strong> - Sociolinguistics</td>
       <td><span class="term-badge">Summer 2026</span><span class="term-badge">Summer 2025</span></td>
     </tr>
     <tr>
-      <td><strong>LIN 541</strong> — Bilingualism <em>(co-taught)</em></td>
+      <td><strong>LIN 541</strong> - Bilingualism <em>(co-taught)</em></td>
       <td><span class="term-badge">Summer 2024</span></td>
     </tr>
     <tr>
-      <td><strong>LIN 200</strong> — Language in the United States <em>(co-taught)</em></td>
+      <td><strong>LIN 200</strong> - Language in the United States <em>(co-taught)</em></td>
       <td><span class="term-badge">Winter 2026</span><span class="term-badge">Winter 2024</span><span class="term-badge">Winter 2023</span></td>
     </tr>
     <tr>
-      <td><strong>PER 101</strong> — Intensive Elementary Persian</td>
+      <td><strong>PER 101</strong> - Intensive Elementary Persian</td>
       <td><span class="term-badge">Summer 2022</span></td>
     </tr>
   </tbody>
@@ -157,17 +168,17 @@ nav_order: 6
   <tbody>
     <tr>
       <td>
-        <strong>LIN 431</strong> — Structure of an Uncommonly Taught Language: Behbahani<sup>*</sup>
+        <strong>LIN 431</strong> - Structure of an Uncommonly Taught Language: Behbahani<sup>*</sup>
         <br><small><i>Guest Lecturer &amp; Consultant: Delivered introductory lecture on sociolinguistic background and typological features; provided ongoing linguistic consultancy for fieldwork.</i></small>
       </td>
       <td><span class="term-badge">Spring 2024</span></td>
     </tr>
     <tr>
-      <td><strong>LIN 524</strong> — Sociolinguistics</td>
+      <td><strong>LIN 524</strong> - Sociolinguistics</td>
       <td><span class="term-badge">Fall 2022</span></td>
     </tr>
     <tr>
-      <td><strong>LIN 431</strong> — Structure of an Uncommonly Taught Language: Tati<sup>*</sup></td>
+      <td><strong>LIN 431</strong> - Structure of an Uncommonly Taught Language: Tati<sup>*</sup></td>
       <td><span class="term-badge">Spring 2022</span></td>
     </tr>
   </tbody>
@@ -180,26 +191,26 @@ nav_order: 6
   </thead>
   <tbody>
     <tr>
-      <td><strong>LIN 200</strong> — Language in the United States</td>
+      <td><strong>LIN 200</strong> - Language in the United States</td>
       <td><span class="term-badge">Spring 2026</span><span class="term-badge">Fall 2024</span></td>
     </tr>
     <tr>
       <td>
-        <strong>LIN 345</strong> — Writing Systems of the World
+        <strong>LIN 345</strong> - Writing Systems of the World
         <br><small><i>Guest Lecturer: Delivered two specialized sessions on "Middle Eastern Writing Systems," focusing on Persian and Kurdish orthographies.</i></small>
       </td>
       <td><span class="term-badge">Fall 2025</span></td>
     </tr>
     <tr>
-      <td><strong>LIN 320</strong> — Structure of English Language</td>
+      <td><strong>LIN 320</strong> - Structure of English Language</td>
       <td><span class="term-badge">Fall 2023</span></td>
     </tr>
     <tr>
-      <td><strong>LIN 340</strong> — Historical Linguistics</td>
+      <td><strong>LIN 340</strong> - Historical Linguistics</td>
       <td><span class="term-badge">Spring 2023</span></td>
     </tr>
     <tr>
-      <td><strong>LIN 270</strong> — Language and Politics</td>
+      <td><strong>LIN 270</strong> - Language and Politics</td>
       <td><span class="term-badge">Fall 2021</span></td>
     </tr>
   </tbody>
@@ -270,11 +281,11 @@ nav_order: 6
   <tbody>
     <tr>
       <td><strong>English Language and Literature Instructor</strong><br><small>Tavana High School (Behbahan, Iran)</small></td>
-      <td><span class="term-badge">2019–2021</span></td>
+      <td><span class="term-badge">2019-2021</span></td>
     </tr>
     <tr>
       <td><strong>ESL Instructor</strong><br><small>Mardani Language Academy</small></td>
-      <td><span class="term-badge">2012–2021</span></td>
+      <td><span class="term-badge">2012-2021</span></td>
     </tr>
   </tbody>
 </table>
