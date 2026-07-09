@@ -53,24 +53,6 @@ nav_order: 5
     opacity: 0.88;
   }
 
-  .language-tags {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.45rem;
-    margin-top: 1.35rem;
-  }
-
-  .language-tag {
-    display: inline-block;
-    padding: 0.28rem 0.7rem;
-    border-radius: 999px;
-    font-size: 0.78rem;
-    font-weight: 600;
-    color: var(--global-text-color);
-    background-color: var(--global-bg-color);
-    border: 1px solid var(--card-border);
-  }
-
   .language-section {
     margin: 2.35rem 0;
   }
@@ -252,15 +234,6 @@ nav_order: 5
       linguistic resources. This page provides a brief overview of the language, its grammatical profile,
       and ongoing work to document and analyze it.
     </p>
-
-    <div class="language-tags">
-      <span class="language-tag">Southwestern Iranian</span>
-      <span class="language-tag">Primarily oral</span>
-      <span class="language-tag">Underdocumented</span>
-      <span class="language-tag">No standard orthography</span>
-      <span class="language-tag">Syntax</span>
-      <span class="language-tag">Morphology</span>
-    </div>
   </section>
 
   <section class="language-section">
@@ -295,7 +268,7 @@ nav_order: 5
 
       <div class="profile-card">
         <h3>Research value</h3>
-        <p>A useful case for studying agreement, alignment, stems, and argument structure.</p>
+        <p>A case where split alignment can be examined without the complication of overt morphological case.</p>
       </div>
 
       <div class="profile-card">
@@ -309,9 +282,10 @@ nav_order: 5
     <h2>Grammatical features at a glance</h2>
 
     <p class="section-intro">
-      Behbahani is especially interesting for formal linguistics because several core grammatical patterns interact
-      in ways that are not immediately visible from surface word forms alone. My work focuses on how these patterns
-      can be analyzed at the syntax-morphology interface.
+      Behbahani is especially interesting for formal linguistics because agreement and alignment do not follow
+      from any single principle: they shift depending on tense, transitivity, and argument structure, and interact
+      with stem alternations in ways that are not visible from surface forms alone. My work focuses on how these
+      patterns can be analyzed at the syntax-morphology interface.
     </p>
 
     <div class="feature-list">
@@ -352,9 +326,9 @@ nav_order: 5
 
     <p class="section-intro">
       Behbahani matters for two connected reasons. Empirically, it is an underdocumented Iranian language whose
-      grammar has not been fully represented in the descriptive or digital record. Theoretically, it provides
-      evidence for how agreement, Voice, stem formation, and argument structure interact in a language without
-      overt morphological case.
+      grammar has not been fully represented in the descriptive or digital record. Theoretically, it offers a case
+      where the mechanisms behind complex alignment can be studied directly, without the interference of overt case
+      morphology that complicates this question in many other languages.
     </p>
 
     <div class="language-note">
@@ -414,9 +388,9 @@ nav_order: 5
     <h2>Related work</h2>
 
     <p class="section-intro">
-      My broader research on Behbahani investigates the syntax-morphology interface, especially split alignment,
-      verbal stems, agreement, Voice, and nominalization. More information about these projects is available on
-      the <a class="language-link" href="/projects/">Projects</a> and <a class="language-link" href="/research/">Research</a> pages.
+      This page is a companion to my broader research on the syntax-morphology interface. For the theoretical
+      framing of this work and current projects, see the <a class="language-link" href="/projects/">Projects</a>
+      and <a class="language-link" href="/research/">Research</a> pages.
     </p>
   </section>
 
