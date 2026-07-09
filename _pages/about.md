@@ -13,7 +13,8 @@ social: false
 <style>
   /* Turn the default page title into a banner-style box */
   .post-header {
-    max-width: 720px;
+    width: 100%;
+    max-width: none;
     padding: 1.6rem 1.9rem;
     margin: 0.75rem 0 2rem 0;
     border: 1px solid rgba(128, 128, 128, 0.16);
@@ -45,10 +46,34 @@ social: false
     color: var(--global-theme-color);
     font-weight: 650;
   }
+
+  /* Make the text column visually narrower and separate the photo column */
+  .about-text-col {
+    padding-right: 2rem;
+  }
+
+  .about-photo-col {
+    border-left: 1px solid rgba(128, 128, 128, 0.16);
+    padding-left: 2rem;
+  }
+
+  @media (max-width: 767px) {
+    .about-text-col {
+      padding-right: 15px;
+    }
+
+    .about-photo-col {
+      border-left: none;
+      border-top: 1px solid rgba(128, 128, 128, 0.16);
+      padding-left: 15px;
+      padding-top: 1.5rem;
+      margin-top: 1.5rem;
+    }
+  }
 </style>
 
 <div class="row">
-<div class="col-sm-8" markdown="1">
+<div class="col-sm-7" markdown="1">
 
 I am a PhD candidate in the Department of Linguistics at Stony Brook University. My research is in syntax and morphology, with a focus on Iranian languages and especially Behbahani, a Southwestern Iranian language spoken in southwestern Iran.
 
@@ -71,7 +96,7 @@ You can read more about my research, teaching, and ongoing projects through the 
 
 
 </div>
-<div class="col-sm-4 text-center">
+<div class="col-sm-5 text-center">
 
   <img src="{{ '/assets/img/pardis.jpeg' | relative_url }}" class="img-fluid rounded z-depth-1" alt="Pardis Derakhshandeh" style="max-width: 100%; margin-bottom: 20px;">
   
