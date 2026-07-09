@@ -5,6 +5,7 @@ permalink: /teaching/
 nav: true
 nav_order: 6
 ---
+My teaching spans syntax, sociolinguistics, and language documentation, ranging from large undergraduate lectures to graduate seminars and one-on-one fieldwork consultation. Alongside canonical courses like historical linguistics and the structure of English, I've designed and taught seminars built around my own research, including two on the grammar of understudied Iranian languages.
 
 <style>
   .teaching-intro {
