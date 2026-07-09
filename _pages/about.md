@@ -9,8 +9,47 @@ news: false
 selected_papers: false
 social: false
 ---
+
+<style>
+  /* Turn the default page title into a banner-style box */
+  .post-header {
+    max-width: 720px;
+    padding: 1.6rem 1.9rem;
+    margin: 0.75rem 0 2rem 0;
+    border: 1px solid rgba(128, 128, 128, 0.16);
+    border-radius: 1.15rem;
+    background:
+      radial-gradient(
+        circle at top right,
+        color-mix(in srgb, var(--global-theme-color) 10%, transparent),
+        transparent 36%
+      ),
+      linear-gradient(
+        135deg,
+        rgba(128, 128, 128, 0.06),
+        rgba(128, 128, 128, 0.018)
+      );
+  }
+
+  .post-header .post-title {
+    margin: 0 0 0.45rem 0;
+    font-size: clamp(2rem, 4vw, 3rem);
+    line-height: 1.05;
+    letter-spacing: -0.035em;
+  }
+
+  .post-header .post-description {
+    margin: 0;
+    font-size: 1.05rem;
+    line-height: 1.55;
+    color: var(--global-theme-color);
+    font-weight: 650;
+  }
+</style>
+
 <div class="row">
 <div class="col-sm-8" markdown="1">
+
 I am a PhD candidate in the Department of Linguistics at Stony Brook University. My research is in syntax and morphology, with a focus on Iranian languages and especially Behbahani, a Southwestern Iranian language spoken in southwestern Iran.
 
 My dissertation investigates how verbal morphology relates to syntactic structure. I am interested in how patterns involving stems, argument indexing, and non-finite forms can help us understand the structure of the verbal domain.
