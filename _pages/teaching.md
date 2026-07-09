@@ -229,7 +229,11 @@ nav_order: 6
     </tr>
     <tr>
       <td>Instructor</td>
-      <td>North American Computational Linguistics Open Competition (NACLO)</td>
+      <td>
+    <a href="https://naclo.org/" target="_blank" rel="noopener noreferrer">
+      North American Computational Linguistics Open Competition (NACLO)
+    </a>
+  </td>
       <td><span class="term-badge">2026</span></td>
     </tr>
   </tbody>
