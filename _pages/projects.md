@@ -214,13 +214,6 @@ nav_order: 4
           with alternative accounts of split alignment.
         </li>
       </ul>
-
-      <div class="project-tags">
-        <span class="project-tag">Haskell</span>
-        <span class="project-tag">Finite-state modeling</span>
-        <span class="project-tag">Agreement</span>
-        <span class="project-tag">Split alignment</span>
-      </div>
     </section>
 
     <section class="project-card">
@@ -244,13 +237,6 @@ nav_order: 4
           including agreement patterns, stem alternations, and argument-structure distinctions.
         </li>
       </ul>
-
-      <div class="project-tags">
-        <span class="project-tag">Corpus development</span>
-        <span class="project-tag">Treebanking</span>
-        <span class="project-tag">Syntactic annotation</span>
-        <span class="project-tag">Fieldwork data</span>
-      </div>
     </section>
 
     <section class="project-card">
@@ -280,13 +266,6 @@ nav_order: 4
           and formal analysis of an underdocumented Iranian language.
         </li>
       </ul>
-
-      <div class="project-tags">
-        <span class="project-tag">Documentation</span>
-        <span class="project-tag">Mentorship</span>
-        <span class="project-tag">Undergraduate research</span>
-        <span class="project-tag">Behbahani</span>
-      </div>
     </section>
 
   </div>
