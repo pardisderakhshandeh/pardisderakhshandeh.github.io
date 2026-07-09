@@ -17,8 +17,17 @@ My dissertation investigates how verbal morphology relates to syntactic structur
 
 Alongside formal analysis, I am involved in language documentation and resource-building for underdocumented languages. My work combines theoretical linguistics with fieldwork, corpus development, and computational modeling.
 
-I am also interested in language rights, linguistic diversity, and the role of documentation and language technologies in supporting marginalized and understudied language communities. In particular, I am interested in how computational tools and AI can be developed more responsibly for languages that are often left out of mainstream linguistic research and technological development.
-
+<p>
+  I am also interested in
+  <a href="https://www.unesco.org/en/articles/linguistic-diversity-and-language-rights-power-being-understood" target="_blank" rel="noopener noreferrer">language rights</a>,
+  linguistic diversity, and the role of
+  <a href="https://www.eldp.net/" target="_blank" rel="noopener noreferrer">documentation</a>
+  and
+  <a href="https://www.elra.info/about/sig/sigul/" target="_blank" rel="noopener noreferrer">language technologies</a>
+  in supporting marginalized and understudied language communities. In particular, I am interested in how
+  computational tools and AI can be developed more responsibly for languages that are often left out of
+  mainstream linguistic research and technological development.
+</p>
 You can read more about my research, teaching, and ongoing projects through the links above.
 
 
