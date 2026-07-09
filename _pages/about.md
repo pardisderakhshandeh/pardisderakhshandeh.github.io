@@ -86,33 +86,41 @@ social: false
 <div class="about-layout">
 
 <div class="about-text-col" markdown="1">
-  
-I am a PhD candidate in the Department of Linguistics at Stony Brook University. My research is in syntax and morphology, with a focus on Iranian languages and especially Behbahani, a Southwestern Iranian language spoken in southwestern Iran.
-
-My dissertation investigates how verbal morphology relates to syntactic structure. I am interested in how patterns involving stems, argument indexing, and non-finite forms can help us understand the structure of the verbal domain.
-
-Alongside formal analysis, I am involved in language documentation and resource-building for underdocumented languages. My work combines theoretical linguistics with fieldwork, corpus development, and computational modeling.
-
 <p>
-  I am also interested in
-  <a href="https://www.unesco.org/en/articles/linguistic-diversity-and-language-rights-power-being-understood" target="_blank" rel="noopener noreferrer">language rights</a>,
-  linguistic diversity, and the role of
+  I am a PhD candidate in the Department of Linguistics at Stony Brook University. My research focuses on complex
+  alignment systems: what gives rise to them, how apparently complicated agreement patterns are built from
+  smaller pieces of grammatical structure, and what theoretical architecture is needed to model them. I pursue
+  these questions through Behbahani, a Southwestern Iranian language whose split alignment patterns make these
+  mechanisms empirically visible.
+</p>
+  
+<p>
+  My dissertation traces how stems, argument indexing, and non-finite forms interact to produce this split,
+  treating Behbahani's verbal domain as a case where the architecture behind alignment can be directly examined.
+  This work also raises broader questions about the kind of theory needed to model complex agreement systems.
+</p>
+  
+<p>
+  Alongside this formal work, I am involved in language documentation and resource-building for underdocumented
+  languages, combining fieldwork, corpus development, and computational modeling with theoretical analysis. This
+  work is grounded in a broader interest in
+  <a href="https://www.unesco.org/en/articles/linguistic-diversity-and-language-rights-power-being-understood" target="_blank" rel="noopener noreferrer">language rights</a>
+  and linguistic diversity, and in how
   <a href="https://www.eldp.net/" target="_blank" rel="noopener noreferrer">documentation</a>
   and
   <a href="https://www.elra.info/about/sig/sigul/" target="_blank" rel="noopener noreferrer">language technologies</a>
-  in supporting marginalized and understudied language communities. In particular, I am interested in how
-  computational tools and AI can be developed more responsibly for languages that are often left out of
-  mainstream linguistic research and technological development.
+  can support marginalized and understudied language communities. I am particularly interested in developing
+  computational tools and AI more responsibly for languages often left out of mainstream linguistic research and
+  technology development.
 </p>
 
 <p>
-  Beyond my core research, I am interested in educational equity, especially the design of accessible and usable
-  course materials. I think accessibility should go beyond format and compliance: course materials should make
-  expectations, instructions, and learning paths clearer for students, particularly those who need additional
-  support in navigating academic systems.
+  Beyond my core research, I care about educational equity, particularly what accessibility means inside the
+  classroom. To me, accessibility goes beyond financial access: it means designing materials, pedagogy, and
+  classroom practices that are genuinely usable by students with different needs. I see this as a shared
+  responsibility for instructors and material designers, not only in what we teach, but in how we teach it.
 </p>
 
-You can read more about my research, teaching, and ongoing projects through the links above.
 
 </div>
 
