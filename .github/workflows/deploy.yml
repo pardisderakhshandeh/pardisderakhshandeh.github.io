@@ -69,6 +69,17 @@ jobs:
         uses: actions/checkout@v4
       - name: Setup Ruby 💎
         uses: ruby/setup-ruby@v1
+
+      - name: Compile LaTeX CV
+        uses: xu-cheng/latex-action@v3
+        with:
+          root_file: cv.tex
+          working_directory: ./assets/pdf/
+
+      - name: Setup Ruby 💎
+        uses: ruby/setup-ruby@v1
+        with:
+        
         with:
           ruby-version: "3.3.5"
           bundler-cache: true
