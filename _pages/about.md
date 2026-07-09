@@ -48,50 +48,45 @@ social: false
   }
 
   /* Keep the two columns next to each other */
-  .about-layout {
-    align-items: flex-start;
-  }
+ .about-layout {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+  gap: 2rem;
+}
 
-  .about-text-col {
-    padding-right: 2rem;
-    line-height: 1.65;
-  }
+.about-text-col {
+  flex: 0 0 60%;
+  max-width: 60%;
+  line-height: 1.65;
+}
 
-  .about-photo-col {
-    border-left: 1px solid rgba(128, 128, 128, 0.16);
-    padding-left: 2rem;
-  }
+.about-photo-col {
+  flex: 0 0 32%;
+  max-width: 32%;
+  border-left: 1px solid rgba(128, 128, 128, 0.16);
+  padding-left: 2rem;
+  text-align: center;
+}
 
-  .about-photo-col img {
-    max-width: 100%;
-    margin-bottom: 20px;
-  }
+.about-photo-col img {
+  width: 100%;
+  max-width: 260px;
+  margin-bottom: 20px;
+}
 
-  .about-social-links {
-    text-align: left;
-    line-height: 2;
-    padding-left: 10px;
-  }
-
-  @media (max-width: 767px) {
-    .about-text-col {
-      padding-right: 15px;
-    }
-
-    .about-photo-col {
-      border-left: none;
-      border-top: 1px solid rgba(128, 128, 128, 0.16);
-      padding-left: 15px;
-      padding-top: 1.5rem;
-      margin-top: 1.5rem;
-    }
-  }
+.about-social-links {
+  text-align: left;
+  line-height: 2;
+  padding-left: 10px;
+}
 </style>
 
-<div class="row about-layout">
+<div class="about-layout">
 
-<div class="col-sm-7 about-text-col" markdown="1">
-
+<div class="about-text-col" markdown="1">
+  
 I am a PhD candidate in the Department of Linguistics at Stony Brook University. My research is in syntax and morphology, with a focus on Iranian languages and especially Behbahani, a Southwestern Iranian language spoken in southwestern Iran.
 
 My dissertation investigates how verbal morphology relates to syntactic structure. I am interested in how patterns involving stems, argument indexing, and non-finite forms can help us understand the structure of the verbal domain.
@@ -121,8 +116,8 @@ You can read more about my research, teaching, and ongoing projects through the 
 
 </div>
 
-<div class="col-sm-5 text-center about-photo-col">
-
+<div class="about-photo-col">
+  
   <img src="{{ '/assets/img/pardis.jpeg' | relative_url }}" class="img-fluid rounded z-depth-1" alt="Pardis Derakhshandeh">
   
   <div class="about-social-links">
