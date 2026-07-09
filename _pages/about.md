@@ -11,10 +11,10 @@ social: false
 ---
 
 <style>
-  /* Turn the default page title into a banner-style box */
+  /* Banner for the default title and subtitle */
   .post-header {
-    width: 100%;
-    max-width: none;
+    width: 100% !important;
+    max-width: none !important;
     padding: 1.6rem 1.9rem;
     margin: 0.75rem 0 2rem 0;
     border: 1px solid rgba(128, 128, 128, 0.16);
@@ -47,14 +47,30 @@ social: false
     font-weight: 650;
   }
 
-  /* Make the text column visually narrower and separate the photo column */
+  /* Keep the two columns next to each other */
+  .about-layout {
+    align-items: flex-start;
+  }
+
   .about-text-col {
     padding-right: 2rem;
+    line-height: 1.65;
   }
 
   .about-photo-col {
     border-left: 1px solid rgba(128, 128, 128, 0.16);
     padding-left: 2rem;
+  }
+
+  .about-photo-col img {
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .about-social-links {
+    text-align: left;
+    line-height: 2;
+    padding-left: 10px;
   }
 
   @media (max-width: 767px) {
@@ -72,8 +88,9 @@ social: false
   }
 </style>
 
-<div class="row">
-<div class="col-sm-7" markdown="1">
+<div class="row about-layout">
+
+<div class="col-sm-7 about-text-col" markdown="1">
 
 I am a PhD candidate in the Department of Linguistics at Stony Brook University. My research is in syntax and morphology, with a focus on Iranian languages and especially Behbahani, a Southwestern Iranian language spoken in southwestern Iran.
 
@@ -92,15 +109,23 @@ Alongside formal analysis, I am involved in language documentation and resource-
   computational tools and AI can be developed more responsibly for languages that are often left out of
   mainstream linguistic research and technological development.
 </p>
+
+<p>
+  Beyond my core research, I am interested in educational equity, especially the design of accessible and usable
+  course materials. I think accessibility should go beyond format and compliance: course materials should make
+  expectations, instructions, and learning paths clearer for students, particularly those who need additional
+  support in navigating academic systems.
+</p>
+
 You can read more about my research, teaching, and ongoing projects through the links above.
 
-
 </div>
-<div class="col-sm-5 text-center">
 
-  <img src="{{ '/assets/img/pardis.jpeg' | relative_url }}" class="img-fluid rounded z-depth-1" alt="Pardis Derakhshandeh" style="max-width: 100%; margin-bottom: 20px;">
+<div class="col-sm-5 text-center about-photo-col">
+
+  <img src="{{ '/assets/img/pardis.jpeg' | relative_url }}" class="img-fluid rounded z-depth-1" alt="Pardis Derakhshandeh">
   
-  <div style="text-align: left; line-height: 2; padding-left: 10px;">
+  <div class="about-social-links">
     <i class="fas fa-envelope"></i> <a href="mailto:pardis.derakhshandeh@stonybrook.edu">Email</a><br>
     <i class="fab fa-github"></i> <a href="https://github.com/pardisderakhshandeh">GitHub</a><br>
     <i class="ai ai-google-scholar"></i> <a href="https://scholar.google.com/citations?user=YOUR_SCHOLAR_ID">Google Scholar</a><br>
@@ -108,5 +133,5 @@ You can read more about my research, teaching, and ongoing projects through the 
   </div>
 
 </div>
-</div>
 
+</div>
