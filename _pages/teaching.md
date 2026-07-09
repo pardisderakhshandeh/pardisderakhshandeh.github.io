@@ -1,8 +1,11 @@
----
-permalink: /teaching/
-title: "Teaching"
----
 
+---
+layout: page
+title: teaching
+permalink: /teaching/
+nav: true
+nav_order: 5
+---
 ## Instructor of Record 
 
 | Course | Term |
