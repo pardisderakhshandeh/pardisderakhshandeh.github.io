@@ -527,24 +527,6 @@ Translation:
   <section class="language-section">
     <h2>References and further reading</h2>
 
-    <p class="section-intro">
-      A bibliography on Behbahani, Southwestern Iranian languages, Iranian morphosyntax, and language documentation
-      will be added here.
-    </p>
-
-    <div class="example-card">
-      <pre><strong>References placeholder</strong>
-
-[Add references on Iranian languages here.]
-
-[Add references on Southwestern Iranian languages here.]
-
-[Add references on agreement, alignment, and Iranian morphosyntax here.]
-
-[Add references on language documentation here.]</pre>
-    </div>
-  </section>
-
   <section class="language-section">
     <h2>Related work</h2>
 
