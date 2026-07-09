@@ -14,31 +14,17 @@ nav_order: 5
     --accent-soft: color-mix(in srgb, var(--global-theme-color) 12%, transparent);
   }
 
-  .behbahani-hero {
-    position: relative;
+  .language-hero {
     padding: 2.2rem 2rem;
-    margin: 0.5rem 0 2.5rem 0;
+    margin: 0.5rem 0 2.4rem 0;
     border: 1px solid var(--card-border);
-    border-radius: 1.4rem;
+    border-radius: 1.35rem;
     background:
       radial-gradient(circle at top right, var(--accent-soft), transparent 34%),
       linear-gradient(135deg, rgba(128, 128, 128, 0.07), rgba(128, 128, 128, 0.02));
-    overflow: hidden;
   }
 
-  .behbahani-hero::after {
-    content: "";
-    position: absolute;
-    right: -3.5rem;
-    bottom: -3.5rem;
-    width: 12rem;
-    height: 12rem;
-    border-radius: 999px;
-    border: 1px solid rgba(128, 128, 128, 0.12);
-    background: rgba(128, 128, 128, 0.025);
-  }
-
-  .behbahani-kicker {
+  .language-kicker {
     display: inline-block;
     margin-bottom: 0.85rem;
     padding: 0.28rem 0.72rem;
@@ -52,29 +38,29 @@ nav_order: 5
     border: 1px solid rgba(128, 128, 128, 0.14);
   }
 
-  .behbahani-hero h2 {
+  .language-hero h2 {
     margin: 0 0 0.85rem 0;
     font-size: clamp(1.65rem, 3vw, 2.35rem);
     line-height: 1.15;
     letter-spacing: -0.02em;
   }
 
-  .behbahani-hero p {
-    max-width: 760px;
+  .language-hero p {
+    max-width: 800px;
     margin-bottom: 0;
     font-size: 1.02rem;
     line-height: 1.68;
     opacity: 0.88;
   }
 
-  .behbahani-tags {
+  .language-tags {
     display: flex;
     flex-wrap: wrap;
     gap: 0.45rem;
     margin-top: 1.35rem;
   }
 
-  .behbahani-tag {
+  .language-tag {
     display: inline-block;
     padding: 0.28rem 0.7rem;
     border-radius: 999px;
@@ -85,79 +71,60 @@ nav_order: 5
     border: 1px solid var(--card-border);
   }
 
-  .behbahani-section {
-    margin: 2.4rem 0;
+  .language-section {
+    margin: 2.35rem 0;
   }
 
-  .behbahani-section h2 {
+  .language-section h2 {
     margin-bottom: 0.75rem;
   }
 
-  .behbahani-section-intro {
-    max-width: 780px;
+  .section-intro {
+    max-width: 820px;
     margin-bottom: 1.25rem;
     line-height: 1.65;
-    opacity: 0.82;
+    opacity: 0.84;
   }
 
-  .behbahani-grid {
+  .profile-grid {
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
     gap: 1rem;
     margin-top: 1.25rem;
   }
 
-  .behbahani-card {
-    padding: 1.15rem 1.15rem 1.05rem 1.15rem;
+  .profile-card {
+    padding: 1.1rem 1.15rem;
     border: 1px solid var(--card-border);
     border-radius: 1rem;
     background-color: var(--softer-bg);
-    transition: transform 160ms ease, background-color 160ms ease, border-color 160ms ease;
   }
 
-  .behbahani-card:hover {
-    transform: translateY(-2px);
-    background-color: var(--soft-bg);
-    border-color: rgba(128, 128, 128, 0.26);
-  }
-
-  .behbahani-card h3 {
-    margin: 0 0 0.55rem 0;
-    font-size: 0.98rem;
+  .profile-card h3 {
+    margin: 0 0 0.45rem 0;
+    font-size: 0.78rem;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
     color: var(--global-theme-color);
   }
 
-  .behbahani-card p {
+  .profile-card p {
     margin: 0;
-    font-size: 0.91rem;
+    font-size: 0.94rem;
     line-height: 1.55;
-    opacity: 0.84;
+    opacity: 0.86;
   }
 
-  .behbahani-highlight {
-    padding: 1.35rem 1.45rem;
-    margin: 1.75rem 0;
-    border-left: 4px solid var(--global-theme-color);
-    border-radius: 0.85rem;
-    background-color: var(--soft-bg);
-  }
-
-  .behbahani-highlight p {
-    margin: 0;
-    line-height: 1.65;
-    opacity: 0.88;
-  }
-
-  .behbahani-research-list {
+  .feature-list {
     display: grid;
     grid-template-columns: 1fr;
-    gap: 0.75rem;
+    gap: 0.8rem;
     margin-top: 1.25rem;
   }
 
-  .behbahani-research-item {
+  .feature-item {
     display: grid;
-    grid-template-columns: 11rem 1fr;
+    grid-template-columns: 12rem 1fr;
     gap: 1rem;
     padding: 1rem 1.1rem;
     border: 1px solid var(--card-border);
@@ -165,23 +132,37 @@ nav_order: 5
     background-color: rgba(128, 128, 128, 0.03);
   }
 
-  .behbahani-research-item strong {
+  .feature-item strong {
     color: var(--global-theme-color);
   }
 
-  .behbahani-research-item span {
-    line-height: 1.55;
-    opacity: 0.84;
+  .feature-item span {
+    line-height: 1.58;
+    opacity: 0.86;
   }
 
-  .behbahani-resource-wrap {
+  .language-note {
+    padding: 1.25rem 1.35rem;
+    margin: 1.6rem 0;
+    border-left: 4px solid var(--global-theme-color);
+    border-radius: 0.85rem;
+    background-color: var(--soft-bg);
+  }
+
+  .language-note p {
+    margin: 0;
+    line-height: 1.65;
+    opacity: 0.88;
+  }
+
+  .resource-grid {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 1rem;
     margin-top: 1.25rem;
   }
 
-  .behbahani-resource {
+  .resource-card {
     padding: 1.2rem;
     border: 1px solid var(--card-border);
     border-radius: 1rem;
@@ -189,13 +170,13 @@ nav_order: 5
       linear-gradient(180deg, rgba(128, 128, 128, 0.055), rgba(128, 128, 128, 0.02));
   }
 
-  .behbahani-resource h3 {
+  .resource-card h3 {
     margin-top: 0;
     margin-bottom: 0.5rem;
     font-size: 1rem;
   }
 
-  .behbahani-resource p {
+  .resource-card p {
     margin-bottom: 0.85rem;
     font-size: 0.92rem;
     line-height: 1.58;
@@ -215,46 +196,44 @@ nav_order: 5
     border: 1px solid rgba(128, 128, 128, 0.14);
   }
 
-  .behbahani-footer-note {
-    margin-top: 2rem;
-    padding: 1.25rem 1.35rem;
-    border-radius: 1rem;
-    border: 1px solid var(--card-border);
-    background-color: rgba(128, 128, 128, 0.035);
+  .language-link {
+    color: var(--global-theme-color);
+    font-weight: 600;
+    text-decoration: none;
+    border-bottom: 1px solid color-mix(in srgb, var(--global-theme-color) 35%, transparent);
   }
 
-  .behbahani-footer-note p {
-    margin: 0;
-    line-height: 1.65;
-    opacity: 0.86;
+  .language-link:hover {
+    color: var(--global-theme-color);
+    border-bottom-color: var(--global-theme-color);
+    text-decoration: none;
   }
 
   @media (max-width: 900px) {
-    .behbahani-grid,
-    .behbahani-resource-wrap {
+    .profile-grid,
+    .resource-grid {
       grid-template-columns: 1fr;
     }
 
-    .behbahani-research-item {
+    .feature-item {
       grid-template-columns: 1fr;
       gap: 0.35rem;
     }
   }
 
   @media (max-width: 600px) {
-    .behbahani-hero {
+    .language-hero {
       padding: 1.55rem 1.25rem;
       border-radius: 1rem;
     }
 
-    .behbahani-hero h2 {
+    .language-hero h2 {
       font-size: 1.55rem;
     }
 
-    .behbahani-card,
-    .behbahani-resource,
-    .behbahani-highlight,
-    .behbahani-footer-note {
+    .profile-card,
+    .resource-card,
+    .language-note {
       border-radius: 0.85rem;
     }
   }
@@ -262,175 +241,183 @@ nav_order: 5
 
 <div class="behbahani-page">
 
-  <section class="behbahani-hero">
-    <span class="behbahani-kicker">Southwestern Iranian · Syntax · Morphology</span>
+  <section class="language-hero">
+    <span class="language-kicker">About Behbahani</span>
 
-    <h2>Behbahani as a window into alignment, stems, and argument structure</h2>
+    <h2>A Southwestern Iranian language from Behbahan, Iran</h2>
 
     <p>
-      Behbahani is a Southwestern Iranian language spoken primarily in Behbahan, Iran. It is a primarily oral
-      language with no standardized writing system and limited descriptive or digital resources. My work on
-      Behbahani combines formal syntactic and morphological analysis with documentation-oriented goals, aiming
-      to make the language more visible in theoretical linguistics and in computationally usable formats.
+      Behbahani is a Southwestern Iranian language spoken primarily in Behbahan, in southwestern Iran.
+      It is a primarily oral language with no standardized writing system and limited publicly available
+      linguistic resources. This page provides a brief overview of the language, its grammatical profile,
+      and ongoing work to document and analyze it.
     </p>
 
-    <div class="behbahani-tags">
-      <span class="behbahani-tag">Split alignment</span>
-      <span class="behbahani-tag">Stem alternations</span>
-      <span class="behbahani-tag">Agreement</span>
-      <span class="behbahani-tag">Voice</span>
-      <span class="behbahani-tag">Nominalization</span>
-      <span class="behbahani-tag">Language documentation</span>
+    <div class="language-tags">
+      <span class="language-tag">Southwestern Iranian</span>
+      <span class="language-tag">Primarily oral</span>
+      <span class="language-tag">Underdocumented</span>
+      <span class="language-tag">No standard orthography</span>
+      <span class="language-tag">Syntax</span>
+      <span class="language-tag">Morphology</span>
     </div>
   </section>
 
-  <section class="behbahani-section">
+  <section class="language-section">
+    <h2>Language profile</h2>
+
+    <p class="section-intro">
+      Behbahani belongs to the Iranian branch of the Indo-Iranian languages. It is used as a local and community
+      language in and around Behbahan, while Persian is the dominant language of education, administration, media,
+      and public writing.
+    </p>
+
+    <div class="profile-grid">
+      <div class="profile-card">
+        <h3>Family</h3>
+        <p>Indo-European, Indo-Iranian, Iranian, Southwestern Iranian.</p>
+      </div>
+
+      <div class="profile-card">
+        <h3>Location</h3>
+        <p>Primarily associated with Behbahan, in southwestern Iran.</p>
+      </div>
+
+      <div class="profile-card">
+        <h3>Writing</h3>
+        <p>Primarily oral, with no widely standardized orthography.</p>
+      </div>
+
+      <div class="profile-card">
+        <h3>Status</h3>
+        <p>Underdocumented, with limited descriptive and digital resources.</p>
+      </div>
+
+      <div class="profile-card">
+        <h3>Research value</h3>
+        <p>A useful case for studying agreement, alignment, stems, and argument structure.</p>
+      </div>
+
+      <div class="profile-card">
+        <h3>Documentation</h3>
+        <p>Ongoing work includes elicited data, naturalistic speech, and syntactic annotation.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="language-section">
+    <h2>Grammatical features at a glance</h2>
+
+    <p class="section-intro">
+      Behbahani is especially interesting for formal linguistics because several core grammatical patterns interact
+      in ways that are not immediately visible from surface word forms alone. My work focuses on how these patterns
+      can be analyzed at the syntax-morphology interface.
+    </p>
+
+    <div class="feature-list">
+      <div class="feature-item">
+        <strong>Pro-drop</strong>
+        <span>Subjects can often be omitted when their reference is recoverable from verbal morphology and context.</span>
+      </div>
+
+      <div class="feature-item">
+        <strong>No morphological case</strong>
+        <span>The language does not mark arguments with overt morphological case, which makes its indexing patterns theoretically important.</span>
+      </div>
+
+      <div class="feature-item">
+        <strong>Split alignment</strong>
+        <span>Argument indexing differs across past and non-past environments, creating a split alignment pattern.</span>
+      </div>
+
+      <div class="feature-item">
+        <strong>Stem alternations</strong>
+        <span>Past and non-past stems interact with tense, aspect, transitivity, and non-finite morphology.</span>
+      </div>
+
+      <div class="feature-item">
+        <strong>Agreement patterns</strong>
+        <span>Subject and object indexing are sensitive to tense, transitivity, and whether certain arguments are overtly expressed.</span>
+      </div>
+
+      <div class="feature-item">
+        <strong>Nominalization</strong>
+        <span>Agentive, resultative, and infinitival forms provide evidence about the size and structure of verbal domains.</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="language-section">
     <h2>Why Behbahani matters</h2>
 
-    <p class="behbahani-section-intro">
-      Behbahani is especially important for the study of the syntax-morphology interface because it combines
-      complex verbal indexing, split alignment, stem alternations, and the absence of morphological case. This
-      combination creates a useful testing ground for theories of agreement, Voice, argument structure, and the
-      relation between verbal stems and syntactic structure.
+    <p class="section-intro">
+      Behbahani matters for two connected reasons. Empirically, it is an underdocumented Iranian language whose
+      grammar has not been fully represented in the descriptive or digital record. Theoretically, it provides
+      evidence for how agreement, Voice, stem formation, and argument structure interact in a language without
+      overt morphological case.
     </p>
 
-    <div class="behbahani-grid">
-      <div class="behbahani-card">
-        <h3>Alignment without case</h3>
-        <p>
-          Behbahani shows alignment-sensitive indexing patterns while lacking morphological case, making it useful
-          for separating agreement from overt case morphology.
-        </p>
-      </div>
-
-      <div class="behbahani-card">
-        <h3>Stem-sensitive grammar</h3>
-        <p>
-          Past and non-past stems are not just morphological alternants. They interact with transitivity, aspect,
-          non-finite morphology, and argument indexing.
-        </p>
-      </div>
-
-      <div class="behbahani-card">
-        <h3>Underdocumented data</h3>
-        <p>
-          Because the language has limited published description, careful documentation can contribute both to
-          formal theory and to the visibility of minoritized Iranian languages.
-        </p>
-      </div>
-    </div>
-  </section>
-
-  <section class="behbahani-section">
-    <h2>Research &amp; core puzzles</h2>
-
-    <p class="behbahani-section-intro">
-      My dissertation investigates how argument structure, verbal stems, agreement, and alignment interact in
-      Behbahani grammar. A central question is whether patterns that appear morphological on the surface are
-      better explained through syntactic structure, especially the distribution of Voice and related functional
-      projections.
-    </p>
-
-    <div class="behbahani-research-list">
-      <div class="behbahani-research-item">
-        <strong>Split alignment</strong>
-        <span>How are subjects and objects indexed across past and non-past environments?</span>
-      </div>
-
-      <div class="behbahani-research-item">
-        <strong>Stem alternations</strong>
-        <span>How do past and non-past stems interact with aspect, transitivity, and non-finite morphology?</span>
-      </div>
-
-      <div class="behbahani-research-item">
-        <strong>Voice</strong>
-        <span>Which syntactic structures license external arguments in different verbal domains?</span>
-      </div>
-
-      <div class="behbahani-research-item">
-        <strong>Nominalization</strong>
-        <span>What do agentive, resultative, and infinitival forms reveal about the size of verbal structure?</span>
-      </div>
-
-      <div class="behbahani-research-item">
-        <strong>Case and agreement</strong>
-        <span>How does the language maintain complex indexing patterns without morphological case?</span>
-      </div>
-    </div>
-
-    <div class="behbahani-highlight">
+    <div class="language-note">
       <p>
-        As a native speaker and linguistic researcher, I approach Behbahani both as an object of formal analysis
-        and as an underdocumented language whose documentation matters beyond theoretical linguistics.
+        As a native speaker and linguistic researcher, I approach Behbahani both as a language that deserves
+        documentation and as a grammatical system that can contribute to broader debates in syntax and morphology.
       </p>
     </div>
   </section>
 
-  <section class="behbahani-section">
-    <h2>Documentation &amp; computational resources</h2>
+  <section class="language-section">
+    <h2>Documentation and resources</h2>
 
-    <p class="behbahani-section-intro">
-      Because Behbahani has limited publicly available documentation, part of this project is dedicated to creating
-      structured resources that can support future descriptive, theoretical, and computational work.
+    <p class="section-intro">
+      This section will grow as documentation materials, computational models, and annotated data become available.
+      The long-term goal is to create resources that are useful for researchers, students, and community-oriented
+      language documentation.
     </p>
 
-    <div class="behbahani-resource-wrap">
-      <div class="behbahani-resource">
-        <h3>Computational modeling</h3>
+    <div class="resource-grid">
+      <div class="resource-card">
+        <h3>Grammar notes</h3>
         <p>
-          I am developing Haskell-based finite-state models to represent selected aspects of Behbahani verbal
-          morphology and agreement. These models are intended to make parts of the analysis explicit, testable,
-          and reusable.
+          Short descriptions of core grammatical patterns, including agreement, alignment, stems, and nominalization.
+        </p>
+        <span class="status-badge">Forthcoming</span>
+      </div>
+
+      <div class="resource-card">
+        <h3>Glossed examples</h3>
+        <p>
+          Curated examples with transliteration, glossing, and translation, drawn from elicitation and fieldwork.
+        </p>
+        <span class="status-badge">Forthcoming</span>
+      </div>
+
+      <div class="resource-card">
+        <h3>Computational models</h3>
+        <p>
+          Haskell-based finite-state models for selected aspects of Behbahani agreement and verbal morphology.
         </p>
         <span class="status-badge">In progress</span>
       </div>
 
-      <div class="behbahani-resource">
-        <h3>Corpus development</h3>
+      <div class="resource-card">
+        <h3>Corpus and treebank</h3>
         <p>
-          This section will eventually include curated examples, text materials, and grammatical descriptions drawn
-          from ongoing fieldwork and native-speaker consultation.
+          A developing corpus and syntactically annotated dataset designed for future descriptive, theoretical,
+          and computational work.
         </p>
-        <span class="status-badge">Forthcoming</span>
+        <span class="status-badge">In progress</span>
       </div>
     </div>
   </section>
 
-  <section class="behbahani-section">
-    <h2>Related areas</h2>
+  <section class="language-section">
+    <h2>Related work</h2>
 
-    <div class="behbahani-grid">
-      <div class="behbahani-card">
-        <h3>Iranian linguistics</h3>
-        <p>
-          Behbahani contributes to broader comparative questions about Southwestern Iranian morphosyntax and
-          understudied Iranian varieties.
-        </p>
-      </div>
-
-      <div class="behbahani-card">
-        <h3>Syntax-morphology interface</h3>
-        <p>
-          The project asks how much apparent morphology can be derived from independently motivated syntactic
-          structure.
-        </p>
-      </div>
-
-      <div class="behbahani-card">
-        <h3>Language visibility</h3>
-        <p>
-          A long-term goal is to create resources that make Behbahani more accessible to researchers, students,
-          and community-oriented documentation work.
-        </p>
-      </div>
-    </div>
-  </section>
-
-  <div class="behbahani-footer-note">
-    <p>
-      This page will be updated as dissertation chapters, computational models, documentation materials, and
-      related presentations become publicly available.
+    <p class="section-intro">
+      My broader research on Behbahani investigates the syntax-morphology interface, especially split alignment,
+      verbal stems, agreement, Voice, and nominalization. More information about these projects is available on
+      the <a class="language-link" href="/projects/">Projects</a> and <a class="language-link" href="/research/">Research</a> pages.
     </p>
-  </div>
+  </section>
 
 </div>
