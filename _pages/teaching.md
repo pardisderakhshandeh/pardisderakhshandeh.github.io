@@ -33,8 +33,11 @@ nav_order: 6
     border: none;
   }
 
+  /* table-layout: fixed + a shared fixed width on the last column keeps every
+     table on the page visually aligned, regardless of how much text is in it */
   .teaching-content table {
     width: 100%;
+    table-layout: fixed;
     border-collapse: collapse;
     font-size: 0.92rem;
     margin-bottom: 1.75rem;
@@ -50,6 +53,11 @@ nav_order: 6
     color: var(--global-text-color);
     opacity: 0.6;
     border-bottom: 1px solid rgba(128, 128, 128, 0.3);
+  }
+
+  .teaching-content thead th:last-child {
+    width: 200px;
+    text-align: right;
   }
 
   .teaching-content tbody tr td {
@@ -70,18 +78,31 @@ nav_order: 6
     background-color: rgba(128, 128, 128, 0.07);
   }
 
-  /* Term / Year column: always the last column, styled as the colorful accent */
+  /* Term / Year column: always last, fixed width, right-aligned */
   .teaching-content table td:last-child {
-    color: var(--global-theme-color);
-    font-weight: 600;
-    white-space: nowrap;
-    width: 1%;
+    width: 200px;
+    text-align: right;
+    white-space: normal;
   }
 
   .teaching-content table small {
     font-weight: 400;
     color: var(--global-text-color);
     opacity: 0.7;
+  }
+
+  /* The oval badge itself */
+  .term-badge {
+    display: inline-block;
+    padding: 0.22em 0.65em;
+    margin: 0.1em 0.15em 0.1em 0;
+    border-radius: 999px;
+    font-size: 0.78rem;
+    font-weight: 600;
+    white-space: nowrap;
+    color: var(--global-theme-color);
+    background-color: rgba(128, 128, 128, 0.1);
+    border: 1px solid rgba(128, 128, 128, 0.15);
   }
 
   .section-note {
@@ -105,10 +126,10 @@ nav_order: 6
 
 | Course | Term |
 | :------ | :--- |
-| **LIN 524** — Sociolinguistics | Summer 2026, 2025 |
-| **LIN 541** — Bilingualism *(co-taught)* | Summer 2024 |
-| **LIN 200** — Language in the United States *(co-taught)* | Winter 2026, 2024, 2023 |
-| **PER 101** — Intensive Elementary Persian | Summer 2022 |
+| **LIN 524** — Sociolinguistics | <span class="term-badge">Summer 2026</span><span class="term-badge">Summer 2025</span> |
+| **LIN 541** — Bilingualism *(co-taught)* | <span class="term-badge">Summer 2024</span> |
+| **LIN 200** — Language in the United States *(co-taught)* | <span class="term-badge">Winter 2026</span><span class="term-badge">Winter 2024</span><span class="term-badge">Winter 2023</span> |
+| **PER 101** — Intensive Elementary Persian | <span class="term-badge">Summer 2022</span> |
 
 ## Teaching Assistant (Stony Brook University)
 <sup>*</sup>Led lab or recitation sections
@@ -117,45 +138,45 @@ nav_order: 6
 
 | Course | Term |
 | :------ | :--- |
-| **LIN 431** — Structure of an Uncommonly Taught Language: Behbahani<sup>*</sup> <br><small><i>Guest Lecturer & Consultant: Delivered introductory lecture on sociolinguistic background and typological features; provided ongoing linguistic consultancy for fieldwork.</i></small> | Spring 2024 |
-| **LIN 524** — Sociolinguistics | Fall 2022 |
-| **LIN 431** — Structure of an Uncommonly Taught Language: Tati<sup>*</sup> | Spring 2022 |
+| **LIN 431** — Structure of an Uncommonly Taught Language: Behbahani<sup>*</sup> <br><small><i>Guest Lecturer & Consultant: Delivered introductory lecture on sociolinguistic background and typological features; provided ongoing linguistic consultancy for fieldwork.</i></small> | <span class="term-badge">Spring 2024</span> |
+| **LIN 524** — Sociolinguistics | <span class="term-badge">Fall 2022</span> |
+| **LIN 431** — Structure of an Uncommonly Taught Language: Tati<sup>*</sup> | <span class="term-badge">Spring 2022</span> |
 
 ### Undergraduate Courses
 
 | Course | Term |
 | :------ | :--- |
-| **LIN 200** — Language in the United States | Spring 2026, Fall 2024 |
-| **LIN 345** — Writing Systems of the World <br><small><i>Guest Lecturer: Delivered two specialized sessions on "Middle Eastern Writing Systems," focusing on Persian and Kurdish orthographies.</i></small> | Fall 2025 |
-| **LIN 320** — Structure of English Language | Fall 2023 |
-| **LIN 340** — Historical Linguistics | Spring 2023 |
-| **LIN 270** — Language and Politics | Fall 2021 |
+| **LIN 200** — Language in the United States | <span class="term-badge">Spring 2026</span><span class="term-badge">Fall 2024</span> |
+| **LIN 345** — Writing Systems of the World <br><small><i>Guest Lecturer: Delivered two specialized sessions on "Middle Eastern Writing Systems," focusing on Persian and Kurdish orthographies.</i></small> | <span class="term-badge">Fall 2025</span> |
+| **LIN 320** — Structure of English Language | <span class="term-badge">Fall 2023</span> |
+| **LIN 340** — Historical Linguistics | <span class="term-badge">Spring 2023</span> |
+| **LIN 270** — Language and Politics | <span class="term-badge">Fall 2021</span> |
 
 ## Outreach & Instruction
 
 | Role | Organization | Term |
 | :--- | :--- | :--- |
-| Instructor | Summer Youth Camp for Computational Linguistics (SYCCL) | 2026 |
-| Instructor | North American Computational Linguistics Open Competition (NACLO) | 2026 |
+| Instructor | Summer Youth Camp for Computational Linguistics (SYCCL) | <span class="term-badge">2026</span> |
+| Instructor | North American Computational Linguistics Open Competition (NACLO) | <span class="term-badge">2026</span> |
 
 ## Teaching Assistant (NYI Global Institute)
 *The NYI Global Institute of Cultural, Cognitive, and Linguistic Studies*
 
 | Course | Term |
 | :------ | :--- |
-| **Phonology Seminar**: Strict CV Metrics or How to Live without Moras | Summer 2024 |
-| **Introduction to Syntax** | Winter 2024, Summer 2023 |
-| **Introduction to Syllable Structure** | Winter 2024 |
-| **Experimental Linguistics** | Winter 2022 |
-| **Semantics Seminar**: Missing Words and Missing Worlds | Winter 2022 |
-| **Linguistics Field Methods** | Summer 2021 |
-| **Semantics Seminar**: Three or Four Puzzles about Numerals | Summer 2021 |
+| **Phonology Seminar**: Strict CV Metrics or How to Live without Moras | <span class="term-badge">Summer 2024</span> |
+| **Introduction to Syntax** | <span class="term-badge">Winter 2024</span><span class="term-badge">Summer 2023</span> |
+| **Introduction to Syllable Structure** | <span class="term-badge">Winter 2024</span> |
+| **Experimental Linguistics** | <span class="term-badge">Winter 2022</span> |
+| **Semantics Seminar**: Missing Words and Missing Worlds | <span class="term-badge">Winter 2022</span> |
+| **Linguistics Field Methods** | <span class="term-badge">Summer 2021</span> |
+| **Semantics Seminar**: Three or Four Puzzles about Numerals | <span class="term-badge">Summer 2021</span> |
 
 ## Previous Instruction
 
 | Role & Institution | Term |
 | :------ | :--- |
-| **English Language and Literature Instructor** <br><small>Tavana High School (Behbahan, Iran)</small> | 2019–2021 |
-| **ESL Instructor** <br><small>Mardani Language Academy</small> | 2012–2021 |
+| **English Language and Literature Instructor** <br><small>Tavana High School (Behbahan, Iran)</small> | <span class="term-badge">2019–2021</span> |
+| **ESL Instructor** <br><small>Mardani Language Academy</small> | <span class="term-badge">2012–2021</span> |
 
 </div>
