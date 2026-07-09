@@ -4,6 +4,8 @@ title: about
 permalink: /
 subtitle: PhD Candidate in Linguistics at Stony Brook University
 
+nav: true
+nav_order: 1
 news: false
 selected_papers: false
 social: false
