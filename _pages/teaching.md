@@ -6,7 +6,7 @@ nav: true
 nav_order: 5
 ---
 
-## Instructor of Record 
+## Instructor of Record (Stony Brook University)
 
 | Course | Term |
 | :------ | :--- |
