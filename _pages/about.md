@@ -1,6 +1,6 @@
 ---
 layout: about
-title: About
+title: About Me
 permalink: /
 subtitle: PhD Candidate in Linguistics at Stony Brook University
 
@@ -127,7 +127,7 @@ social: false
 
 <div class="about-photo-col">
   
-  <img src="{{ '/assets/img//Pardis.PNG' | relative_url }}" class="img-fluid rounded z-depth-1" alt="Pardis Derakhshandeh">
+  <img src="{{ '/assets/img//pardis.PNG' | relative_url }}" class="img-fluid rounded z-depth-1" alt="Pardis Derakhshandeh">
   
   <div class="about-social-links">
     <i class="fas fa-envelope"></i> <a href="mailto:pardis.derakhshandeh@stonybrook.edu">Email</a><br>
