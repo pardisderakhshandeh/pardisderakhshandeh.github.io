@@ -93,7 +93,7 @@ social: false
     Department of Linguistics at Stony Brook University
   </a>,
   where I work on syntax and morphology. I joined the program in 2021 and am advised by
-  <a href="https://linguistics.stonybrook.edu/people/faculty" target="_blank" rel="noopener noreferrer">
+  <a href="https://sites.google.com/stonybrook.edu/francisco-ordonez/" target="_blank" rel="noopener noreferrer">
     Dr. Francisco Ordóñez
   </a>.
   My research focuses on complex alignment systems: what gives rise to them, how apparently complicated
