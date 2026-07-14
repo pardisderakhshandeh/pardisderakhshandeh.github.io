@@ -87,8 +87,9 @@ social: false
 
 <div class="about-text-col" markdown="1">
 <p>
-  I am a PhD candidate in the Department of Linguistics at Stony Brook University. My research focuses on complex
-  alignment systems: what gives rise to them, how apparently complicated agreement patterns are built from
+  
+  I am a PhD candidate in [Department of Linguistics at Stony Brook University](https://linguistics.stonybrook.edu/), where I work on syntax and morphology. I joined the program in 2021 and am advised by Dr. [Paco Ordóñez](https://linguistics.stonybrook.edu/people/faculty).
+  My research focuses on complex alignment systems: what gives rise to them, how apparently complicated agreement patterns are built from
   smaller pieces of grammatical structure, and what theoretical architecture is needed to model them. I pursue
   these questions through Behbahani, a Southwestern Iranian language whose split alignment patterns make these
   mechanisms empirically visible.
