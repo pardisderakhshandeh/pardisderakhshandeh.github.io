@@ -88,17 +88,18 @@ social: false
 <div class="about-text-col" markdown="1">
 <p>
   
-  I am a PhD candidate in [Department of Linguistics at Stony Brook University](https://linguistics.stonybrook.edu/), where I work on syntax and morphology. I joined the program in 2021 and am advised by Dr. [Paco Ordóñez](https://linguistics.stonybrook.edu/people/faculty).
-  My research focuses on complex alignment systems: what gives rise to them, how apparently complicated agreement patterns are built from
-  smaller pieces of grammatical structure, and what theoretical architecture is needed to model them. I pursue
-  these questions through Behbahani, a Southwestern Iranian language whose split alignment patterns make these
-  mechanisms empirically visible.
-</p>
-  
-<p>
-  My dissertation traces how stems, argument indexing, and non-finite forms interact to produce this split,
-  treating Behbahani's verbal domain as a case where the architecture behind alignment can be directly examined.
-  This work also raises broader questions about the kind of theory needed to model complex agreement systems.
+ I am a PhD candidate in the
+  <a href="https://linguistics.stonybrook.edu/" target="_blank" rel="noopener noreferrer">
+    Department of Linguistics at Stony Brook University
+  </a>,
+  where I work on syntax and morphology. I joined the program in 2021 and am advised by
+  <a href="https://linguistics.stonybrook.edu/people/faculty" target="_blank" rel="noopener noreferrer">
+    Dr. Paco Ordóñez
+  </a>.
+  My research focuses on complex alignment systems: what gives rise to them, how apparently complicated
+  agreement patterns are built from smaller pieces of grammatical structure, and what theoretical architecture
+  is needed to model them. I pursue these questions through Behbahani, a Southwestern Iranian language whose
+  split alignment patterns make these mechanisms empirically visible.
 </p>
   
 <p>
@@ -127,7 +128,7 @@ social: false
 
 <div class="about-photo-col">
   
-  <img src="{{ '/assets/img//pardis.PNG' | relative_url }}" class="img-fluid rounded z-depth-1" alt="Pardis Derakhshandeh">
+  <img src="{{ '/assets/img//pardis.png' | relative_url }}" class="img-fluid rounded z-depth-1" alt="Pardis Derakhshandeh">
   
   <div class="about-social-links">
     <i class="fas fa-envelope"></i> <a href="mailto:pardis.derakhshandeh@stonybrook.edu">Email</a><br>
