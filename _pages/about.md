@@ -94,7 +94,7 @@ social: false
   </a>,
   where I work on syntax and morphology. I joined the program in 2021 and am advised by
   <a href="https://linguistics.stonybrook.edu/people/faculty" target="_blank" rel="noopener noreferrer">
-    Dr. Paco Ordóñez
+    Dr. Francisco Ordóñez
   </a>.
   My research focuses on complex alignment systems: what gives rise to them, how apparently complicated
   agreement patterns are built from smaller pieces of grammatical structure, and what theoretical architecture
