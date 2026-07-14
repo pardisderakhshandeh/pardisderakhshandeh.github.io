@@ -133,8 +133,7 @@ social: false
   <div class="about-social-links">
     <i class="fas fa-envelope"></i> <a href="mailto:pardis.derakhshandeh@stonybrook.edu">Email</a><br>
     <i class="fab fa-github"></i> <a href="https://github.com/pardisderakhshandeh">GitHub</a><br>
-    <i class="ai ai-google-scholar"></i> <a href="https://scholar.google.com/citations?user=YOUR_SCHOLAR_ID">Google Scholar</a><br>
-    <i class="fab fa-linkedin"></i> <a href="https://linkedin.com/in/YOUR_LINKEDIN_ID">LinkedIn</a>
+    <i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/pardisderakhshandeh/g">LinkedIn</a>
   </div>
 
 </div>
