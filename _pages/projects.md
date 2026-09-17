@@ -216,29 +216,7 @@ nav_order: 4
       </ul>
     </section>
 
-    <section class="project-card">
-      <div class="project-card-header">
-        <h2>Behbahani Corpus and Syntactic Treebank</h2>
-        <span class="project-status">In progress</span>
-      </div>
-
-      <p>
-        To establish a durable empirical foundation for future research on Behbahani, I am developing a digitized
-        corpus and a custom syntactically annotated treebank.
-      </p>
-
-      <ul>
-        <li>
-          Compiling a foundational textual corpus based on elicited data, naturalistic speech recordings, and
-          fieldwork materials.
-        </li>
-        <li>
-          Designing a theoretically informed syntactic annotation scheme tailored to Behbahani morphosyntax,
-          including agreement patterns, stem alternations, and argument-structure distinctions.
-        </li>
-      </ul>
-    </section>
-
+   
     <section class="project-card">
       <div class="project-card-header">
         <h2>Language Documentation and Mentorship: Linguists, Meet Behbahani</h2>
